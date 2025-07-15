@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(5, 96, 96);
+    color: #fff;
+     font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    padding-block: 2rem;
+}
+.weather-info{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 20px;
+}
+#time{
+    color: rgb(229, 174, 93);
+}
+#temperature{
+    color: chartreuse;
+}
+#weatherDescription{
+    color: rgb(238, 131, 54);
+}
+#humidity{
+    color: aqua;
+}
+#visibility{
+    color: rgb(175, 185, 185);
+}
+.weather-info button,
+.weather-info input{
+    padding: 0.7rem 2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.4rem;
+    transition: background-color 0.3s ease-in-out;
+}
+ .weather-info button{
+    background-color: rgb(64, 43, 182);
+    cursor: pointer;
+    color: #fff;
+}  
+.weather-info button:hover{
+    background-color:blue;
+    transform: scale(101%);
+
+    color: rgb(234, 25, 25);
+} 
+
+section h2{
+    padding: 0.9rem 0.8rem;
+    color:rgb(184, 145, 145)
+}
+section p{
+    padding: 0.9rem 0.8rem;
+}
